@@ -51,3 +51,5 @@ This project was created as a learning exercise for building a single-page websi
 ## Author
 
 Created by [lotoslena-maker](https://github.com/lotoslena-maker).
+
+Day 3 GitHub workflow verified.
