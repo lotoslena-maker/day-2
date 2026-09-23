@@ -6,14 +6,14 @@ The project explains what AI agents are, how they work, which components they us
 
 ## Features
 
-- Modern blue-and-yellow Ukrainian-inspired design
-- Decorative red poppy elements
+- Warm neutral design with red accents and a Ukrainian-inspired ornament
+- Accessible navigation, keyboard focus styles, and reduced-motion support
 - Responsive layout for desktop, tablet, and mobile
 - Sections explaining:
   - AI agent capabilities
   - Agent workflow
   - Agent architecture
-- Interactive **AI Agent Simulator**
+- Interactive **AI Agent Simulator** with example tasks (local educational simulation, no AI service connection)
 - Built with plain HTML, CSS, and JavaScript
 
 ## Project Structure
@@ -22,7 +22,7 @@ The project explains what AI agents are, how they work, which components they us
 day-2/
 ├── index.html
 ├── style.css
-├── scrirt.js
+├── script.js
 └── README.md
 ```
 
