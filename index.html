@@ -5,45 +5,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>AI Agents Ukraine</title>
+  <title>AI Agents Ukraine — Think. Plan. Act.</title>
+  <meta name="description" content="Explore how AI agents understand goals, plan, use tools, and take action. An interactive introduction with Ukrainian spirit.">
+  <meta name="theme-color" content="#faf9f5">
 
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-  <!-- Decorative red poppies -->
-
-  <div class="poppy poppy-1">
-    <svg viewBox="0 0 100 100">
-      <circle cx="50" cy="50" r="10" fill="#1b1b1b"/>
-      <ellipse cx="34" cy="40" rx="18" ry="24" fill="#d62828"/>
-      <ellipse cx="66" cy="40" rx="18" ry="24" fill="#e63946"/>
-      <ellipse cx="36" cy="64" rx="18" ry="22" fill="#c91f1f"/>
-      <ellipse cx="64" cy="64" rx="18" ry="22" fill="#d62828"/>
-    </svg>
-  </div>
-
-  <div class="poppy poppy-2">
-    <svg viewBox="0 0 100 100">
-      <circle cx="50" cy="50" r="10" fill="#1b1b1b"/>
-      <ellipse cx="34" cy="40" rx="18" ry="24" fill="#d62828"/>
-      <ellipse cx="66" cy="40" rx="18" ry="24" fill="#e63946"/>
-      <ellipse cx="36" cy="64" rx="18" ry="22" fill="#c91f1f"/>
-      <ellipse cx="64" cy="64" rx="18" ry="22" fill="#d62828"/>
-    </svg>
-  </div>
-
-  <div class="poppy poppy-3">
-    <svg viewBox="0 0 100 100">
-      <circle cx="50" cy="50" r="10" fill="#1b1b1b"/>
-      <ellipse cx="34" cy="40" rx="18" ry="24" fill="#d62828"/>
-      <ellipse cx="66" cy="40" rx="18" ry="24" fill="#e63946"/>
-      <ellipse cx="36" cy="64" rx="18" ry="22" fill="#c91f1f"/>
-      <ellipse cx="64" cy="64" rx="18" ry="22" fill="#d62828"/>
-    </svg>
-  </div>
-
+  <a class="skip-link" href="#main">Skip to content</a>
 
   <div class="page-wrap">
 
@@ -54,13 +24,14 @@
 
     <!-- Navigation -->
 
-    <nav>
+    <nav aria-label="Main navigation">
 
       <div class="logo">
-        AI <span>AGENTS</span> 🇺🇦
+        AI <span>AGENTS</span><span class="flag" role="img" aria-label="Ukraine"></span>
       </div>
 
-      <ul>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation">Menu ☰</button>
+      <ul id="navigation">
         <li><a href="#about">About</a></li>
         <li><a href="#how">How It Works</a></li>
         <li><a href="#demo">Demo</a></li>
@@ -69,6 +40,7 @@
     </nav>
 
 
+    <main id="main">
     <!-- HERO -->
 
     <header class="hero">
@@ -94,45 +66,37 @@
         <div class="buttons">
 
           <a class="btn btn-primary" href="#about">
-            Explore AI Agents
+            Explore AI Agents ↗
           </a>
 
           <a class="btn btn-secondary" href="#demo">
-            Try the Demo
+            Try the Demo →
           </a>
 
         </div>
 
+        <p class="hero-note"><span>●</span> A new way to turn ideas into outcomes.</p>
       </div>
 
 
-      <!-- AI graphic instead of photo -->
+      <!-- Agent components visualization -->
 
-      <div class="agent-visual">
+      <div class="agent-visual" role="img" aria-label="AI agent connected to reasoning, tools, context, and action">
 
         <div class="orbit">
 
-          <div class="node node-1">
-            🧠
-          </div>
+          <div class="node node-1"><b>◎</b> Reasoning</div>
 
-          <div class="node node-2">
-            🔧
-          </div>
+          <div class="node node-2"><b>⌘</b> Tools</div>
 
-          <div class="node node-3">
-            📊
-          </div>
+          <div class="node node-3"><b>↗</b> Action</div>
 
-          <div class="node node-4">
-            ⚙️
-          </div>
+          <div class="node node-4"><b>▤</b> Context</div>
 
         </div>
 
-        <div class="core">
-          AI
-        </div>
+        <div class="core">AI<small>AGENT CORE</small></div>
+        <span class="visual-caption">CONNECTED THINKING. PURPOSEFUL ACTION.</span>
 
       </div>
 
@@ -145,6 +109,7 @@
 
       <div class="section-title">
 
+        <div class="eyebrow">01 / BEYOND THE CONVERSATION</div>
         <h2>
           What Can an AI Agent Do?
         </h2>
@@ -162,9 +127,7 @@
 
         <div class="card">
 
-          <div class="icon">
-            🎯
-          </div>
+          <div class="icon" aria-hidden="true">◎</div>
 
           <h3>
             Understand Goals
@@ -180,9 +143,7 @@
 
         <div class="card">
 
-          <div class="icon">
-            🧠
-          </div>
+          <div class="icon" aria-hidden="true">◈</div>
 
           <h3>
             Analyze Context
@@ -198,9 +159,7 @@
 
         <div class="card">
 
-          <div class="icon">
-            🗺️
-          </div>
+          <div class="icon" aria-hidden="true">⌁</div>
 
           <h3>
             Create a Plan
@@ -216,9 +175,7 @@
 
         <div class="card">
 
-          <div class="icon">
-            🔧
-          </div>
+          <div class="icon" aria-hidden="true">⌘</div>
 
           <h3>
             Use Tools
@@ -235,9 +192,7 @@
 
         <div class="card">
 
-          <div class="icon">
-            ⚙️
-          </div>
+          <div class="icon" aria-hidden="true">↗</div>
 
           <h3>
             Take Action
@@ -253,9 +208,7 @@
 
         <div class="card">
 
-          <div class="icon">
-            🔄
-          </div>
+          <div class="icon" aria-hidden="true">⟳</div>
 
           <h3>
             Evaluate Results
@@ -279,6 +232,7 @@
 
       <div class="section-title">
 
+        <div class="eyebrow">02 / THE AGENT LOOP</div>
         <h2>
           How Does an AI Agent Work?
         </h2>
@@ -375,6 +329,7 @@
 
       <div class="section-title">
 
+        <div class="eyebrow">03 / BUILT TO WORK TOGETHER</div>
         <h2>
           Inside an AI Agent
         </h2>
@@ -441,6 +396,7 @@
 
       <div class="section-title">
 
+        <div class="eyebrow">04 / SEE IT IN ACTION</div>
         <h2>
           AI Agent Simulator
         </h2>
@@ -453,28 +409,20 @@
       </div>
 
 
-      <div class="demo">
-
-        <textarea
-          id="task"
-          placeholder="Example: Create a short educational lesson about AI agents..."
-        ></textarea>
-
-        <br><br>
-
-        <button
-          class="btn btn-primary"
-          onclick="runAgent()"
-        >
-          ▶ Run AI Agent
-        </button>
-
-        <div
-          class="agent-output"
-          id="output"
-        ></div>
-
-      </div>
+      <form class="demo" id="agent-form" novalidate>
+        <label for="task">What would you like your agent to do?</label>
+        <textarea id="task" maxlength="2000" aria-describedby="demo-hint" placeholder="Example: Create a short educational lesson about AI agents…"></textarea>
+        <div class="examples" aria-label="Example tasks">
+          <button class="example" type="button" data-task="Create a short educational lesson about AI agents.">Plan a lesson</button>
+          <button class="example" type="button" data-task="Compare three approaches to automating a weekly report.">Explore an idea</button>
+          <button class="example" type="button" data-task="Create a checklist for launching an educational website.">Build a checklist</button>
+        </div>
+        <div class="demo-actions">
+          <p class="demo-hint" id="demo-hint">Educational simulation · Runs locally · No AI connection</p>
+          <button class="btn btn-primary" id="run-agent" type="submit">Run simulation ↗</button>
+        </div>
+        <div class="agent-output" id="output" role="status" aria-live="polite" aria-relevant="additions text"></div>
+      </form>
 
     </section>
 
@@ -486,11 +434,11 @@
       <div class="ukraine-inner">
 
         <div class="mini-poppy">
-          🌺
+          ✿
         </div>
 
         <h2>
-          AI for Ukraine 🇺🇦
+          Global technology. Ukrainian spirit.
         </h2>
 
         <p>
@@ -510,19 +458,10 @@
     </section>
 
 
+    </main>
     <!-- FOOTER -->
 
-    <footer>
-
-      <strong>
-        AI Agents Ukraine
-      </strong>
-
-      <br>
-
-      Artificial Intelligence with Ukrainian spirit 🇺🇦
-
-    </footer>
+    <footer><strong>AI AGENTS / UKRAINE</strong><span>Intelligence with purpose. Technology with soul.</span><a href="#main">Back to top ↑</a></footer>
 
   </div>
 
